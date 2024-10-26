@@ -1,46 +1,7 @@
 body{
     background-color:white;
 }
-.div1{
-    background-color:rgb(31, 176, 233);
-    height: 115px;
-    width: 100%;
-   
-}
-.logo-container{
-    text-align: center;
-    height:40px;
-    width:40px;
- 
-   
-}
-.div1 h5{
-    position: absolute;
-    left: 1500px;
-    top: 48px;
-}
-.logo{
-    height: 40px;
-    width: 40px;
-    position: absolute;
-    left: 1500px;
-    top: 30px;
-    
-}
 
-.logo:hover{
-   filter: drop-shadow(0 4px 10px rgba(199, 250, 13, 0.5));
-}
-#logo2{
-    height: 40px;
-    width: 40px;
-    position: absolute;
-    left: 50px;
-    top: 50px;
-}
-#logo2:hover{
-    filter: drop-shadow(0 4px 10px rgba(199, 250, 13, 0.5));
- }
 #footer{
     background-color: black;
     height: 700px;
@@ -48,83 +9,7 @@ body{
     position: absolute;
     top: 1000px;
 }
-.input1{
-    height: 30px;
-    width: 250px;
-    background-color:white;
-    box-shadow: 10px 10px 15px 5px rgba(140, 140, 143, 0.3);
-    position: absolute;
-    left: 1300px;
-    top: 130px;
-    
-}   
-input:hover{
-    background-color:yellow;
-}
-#logo3{
-    height: 31px;
-    width: 31px;
-    position: absolute;
-    left: 1270px;
-    top: 130px;
-}
-#logo3:hover{
-    filter: drop-shadow(0 4px 10px rgba(199, 250, 13, 0.5));
- }
- #div2{
-    background-color: orange;
-    height:28px;
-    width: 60px;
-    position: absolute;
-    left: 600px;
-    top: 50px;
-    text-align: center;
-    color: aliceblue;
-    border-radius: 10%;
-    }
-#div2 h3{
-   display: inline;
-}
-#div2:hover{
-    filter: drop-shadow(0 4px 10px rgba(199, 250, 13, 0.5));
-color: black; 
-}
-#div3{
-    background-color: orange;
-    height:28px;
-    width: 60px;
-    position: absolute;
-    left: 800px;
-    top: 50px;
-    text-align: center;
-    color: aliceblue;
-    border-radius: 10%;
-    }
-#div3 h3{
-   display: inline;
-}
-#div3:hover{
-    filter: drop-shadow(0 4px 10px rgba(199, 250, 13, 0.5));
-color: black; 
-}
-#div4{
-    background-color:orange;
-    height:28px;
-    width: 60px;
-    position: absolute;
-    left: 1000px;
-    top: 50px;
-    text-align: center;
-    color: aliceblue;
-    border-radius: 10%;
-    }
-#div4 h3{
-   display: inline;
-}
-#div4:hover{
-    filter: drop-shadow(0 4px 10px rgba(199, 250, 13, 0.5));
-    color: black;
- }
+
 
 #f1{
     height: 50px;
