@@ -9,29 +9,83 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
-    <header class="bg-primary ">
+    <header>
         <div class="row">
-            <div class="col">
-                <h1>Exchange more<h1>
+           
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary" >
+            <div class="col-1 col-sm-1 ms-5">
+                <img src="./1000_F_430627418_ND6znegaJ2cdUWHb4ZrKdy2dbWVX4DlI-removebg-preview.png" alt="" height="40px" width="40px">
             </div>
-            <div class="col">
-                <nav>
-                    <ul class="list-inline">
-                        <li class="list-inline-item">Home</li>
-                        <li class="list-inline-item">Features</li>
-                        <li class="list-inline-item">About us</li>
-                        <li class="list-inline-item">Contact us</li>
-                        <li class="list-inline-item"><button class="btn btn-primary">Sign up</button></li>
-                        <li class="list-inline-item"><button class="btn btn-warning">Signu up</button></li>                   
-                    </ul>
-                </nav>
+           
+            <div class="container-fluid col ps-5" id="h31">
+                <strong>Exchange more</strong>
+            
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-nav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">about us</a></li>
+            <li class="nav-item"><a class="nav-link disabled" href="#">contact us</a></li>
+            <li class="nav-iem">  <a href="./signup.html"><button class="btn btn-danger">Sign up</button></a></li>
+            <li class="nav-item ms-2"><a href="./signin.html"><button class="btn btn-warning">Sign in</button></a> </li>
+        </ul> 
+                                                                                                                                                                                                                      
+    </div>
+    
+    </div>
+    
+        </nav>
+    </div>
+    </header>
+   <div class="container">
+    <div class="row">
+        <div class="col-12 col-sm-12 col-md-4 my-5">
+            <h1 class="text-lightdark">Fast, Secure, and Easy Mobile Exchange – Get the Best Value for Your Phone</h1>
+            <button class="btn btn-primary">learn more</button>
+        </div>
+        
+        <div class="col-12 mt-5">
+            <div class="alert alert-into alert-dismissible fadeshow" id="d2" >
+                <img src="./49053.jpg" alt="" height="200px" width="200px">
+                <h4>24x7 help&support</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                </div>
+    </div>
+
+    <div class="col mb-5">
+        <button class="btn btn-primary" id="d1">
+            <img src="./conversation.png" alt="" height="60px" width="60px"></button>
+        
+    </div>
+    
+   </div>
+   
+  <div class="row">    
+    <div class="col-12 p-5 ms-5">
+        <h1>Trade-in your used electronics for new ones</h1>
+    </div>
+    
+        <div class="col-12 col-sm-6">
+            <div id="b">
+                <button class="btn btn-" id="b2"><strong>sell</strong></button>
             </div>
         </div>
-    </header>
-
+        
+        <div class="col-12 col-sm-6 ">
+            <div id="s">
+                <button class="btn btn-" id="b1"><strong>buy</strong></button>
+            </div>
+        </div>
     </div>
+
+  
+</div>
 </body>
 </html>
