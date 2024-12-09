@@ -30,8 +30,8 @@ body{
 }
 
 #s{
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     background-color:#F7F7F7;
    
     border-style:groove;
@@ -56,8 +56,8 @@ body{
 
 
 #b{
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     background-color:#F7F7F7;
     border-radius: 10%;
     border-style:groove;
@@ -240,8 +240,10 @@ body{
     background-color: gray;
     height: 50px;
     width: 100% ;
-    position: absolute;
-    bottom:5px;
+    position: relative;
+    top: 450px;
+    font-size: 36px;
+    
 }
 footer H1{
     color: white;
@@ -256,10 +258,26 @@ footer h5{
     bottom:82px ;
     left:400px;
 }
-#f2 h1
-{
+
+#foot{
+    height: 600px;
+    width: 100%;
+}
+#Ex{
     position: relative;
-    bottom: 5px;
-    left: 650px;
+    top:350px;
+    
+}
+#res{
+    position: relative;
+    top:400px;
+   
+}
+#bu{
+    position:relative;
+    top:350px;
+    
+}
+#n{
 
 }
