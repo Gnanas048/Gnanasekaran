@@ -12,17 +12,17 @@
         <link rel="stylesheet" href="style.css">
 
 </head>
-<body>
+<body background="./3607424.jpg">
     <header>
         <div class="row">
            
         <nav class="navbar navbar-expand-lg navbar-light bg-primary" >
             <div class="col-1 col-sm-1 ms-5">
-                <img src="./1000_F_430627418_ND6znegaJ2cdUWHb4ZrKdy2dbWVX4DlI-removebg-preview.png" alt="" height="40px" width="40px">
+                <img src="./1000_F_430627418_ND6znegaJ2cdUWHb4ZrKdy2dbWVX4DlI-removebg-preview.png" alt="" height="50px" width="50px">
             </div>
            
             <div class="container-fluid col ps-5" id="h31">
-                <strong>Exchange more</strong>
+                <strong class="h2" id="head">Exchange more</strong>
             
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-nav">
         <span class="navbar-toggler-icon"></span>
@@ -44,11 +44,11 @@
         </nav>
     </div>
     </header>
-   <div class="container">
+   <div class="container-fluid">
     <div class="row">
         <div class="col-12 col-sm-12 col-md-4 my-5">
-            <h1 class="text-lightdark">Fast, Secure, and Easy Mobile Exchange – Get the Best Value for Your Phone</h1>
-            <button class="btn btn-primary">learn more</button>
+            <h1 class="text-light ms-5">Fast, Secure, and Easy Mobile Exchange – Get the Best Value for Your Phone</h1>
+            <button class="btn btn-primary ms-5">learn more</button>
         </div>
         
         <div class="col-12 mt-5">
@@ -61,42 +61,43 @@
 
     <div class="col mb-5">
         <button class="btn btn-primary" id="d1">
-            <img src="./conversation.png" alt="" height="60px" width="60px"></button>
+            <img src="./conversation.png" alt="" height="30px" width="30px"></button>
         
     </div>
     
    </div>
-   
+</div>
+   <div class="container-fluid">
   <div class="row">    
-    <div class="col-12 p-5 ms-5">
-        <h1>Trade-in your used electronics for new ones</h1>
+    <div class="col-12 ms-5 ps-5">
+        <h1 class="text-light ps-5 ms-5">Trade-in your used electronics for new ones</h1>
     </div>
     
-        <div class="col-12 col-sm-6">
+        <div class="col-12 col-sm-6 p-5 ">
             <div id="b">
                 <button class="btn btn-" id="b2"><strong>sell</strong></button>
             </div>
         </div>
         
-        <div class="col-12 col-sm-6 ">
+        <div class="col-12 col-sm-6 p-5">
             <div id="s">
                 <button class="btn btn-" id="b1"><strong>buy</strong></button>
-            </div>
+            </div>   
         </div>
     </div>
 
   
 </div>
-<footer class="bg-dark"id="foot">
-    <hr class="bg-primary">
+<footer class=""id="foot">
+    <hr id="hr1">
     <div class="container-fluid">
     <div class="row">
         
-        <div class="col-12 col-sm-4" >
+        <div class="col-12 col-sm-4">
               <p class="text-light"><h1 id="Ex">Exchange more</h1></p>
         </div>
         <div class="col-12 col-sm-4">
-            <p class="text-light"><strong id="res"> © 2010-2024 Serivce platform S.L. All rights reserved.</strong></p>
+            <p class="text-light h4"  ><strong id="res"> © 2010-2024 Serivce platform S.L. All rights reserved.</strong></p>
         </div>
         <div class="col-12 col-sm-4">
            <button class="btn btn-light m-5 " id="bu" >English</button>
