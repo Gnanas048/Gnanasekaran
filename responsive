@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="style.css">
 
 </head>
-<body background="./3607424.jpg">
+<body background="./360742.jpg">
     <header>
         <div class="row">
            
@@ -24,16 +24,16 @@
             <div class="container-fluid col ps-5" id="h31">
                 <strong class="h2" id="head">Exchange more</strong>
             
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-Nav">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-nav">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbar-Nav" >
-        <ul class="navbar-nav ms-auto"  id="nav1">
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
             <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
             <li class="nav-item"><a class="nav-link" href="#">about us</a></li>
-            <li class="nav-item"><a class="nav-link disabled" href="#">contact us</a></li>
-            <li class="nav-item">  <a href="./signup.html"><button class="btn btn-danger">Sign up</button></a></li>
+            <li class="nav-item"><a class="nav-link " href="#">contact us</a></li>
+            <li class="nav-iem">  <a href="./signup.html"><button class="btn btn-danger">Sign up</button></a></li>
             <li class="nav-item ms-2"><a href="./signin.html"><button class="btn btn-warning">Sign in</button></a> </li>
         </ul> 
                                                                                                                                                                                                                       
@@ -44,6 +44,14 @@
         </nav>
     </div>
     </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                create search box
+            </div>
+        </div>
+    </div>
    <div class="container-fluid">
     <div class="row">
         <div class="col-12 col-sm-12 col-md-4 my-5">
@@ -70,36 +78,87 @@
    <div class="container-fluid">
   <div class="row">    
     <div class="col-12 ms-5 ps-5">
-        <h1 class="text-dark ps-5 ms-5">Trade-in your used electronics for new ones</h1>
+        <h1 class="text-dark ps-1 ms-1">Trade-in your used electronics for new ones</h1>
     </div>
     
         <div class="col-12 col-sm-6 p-5 ">
             <div id="b">
-                <button class="btn btn-" id="b2"><strong>sell</strong></button>
+                <img src="./sell_6860244.png" alt="" height="100px" width="100px" id="sell">
+                <button class="btn btn-" id="b2">
+                    
+                    <strong>sell</strong></button>
             </div>
         </div>
         
         <div class="col-12 col-sm-6 p-5">
-            <div id="s">
-                <button class="btn btn-" id="b1"><strong>buy</strong></button>
+            <div id="s" >
+                <img src="./shopping-online_6149021.png" alt="" height="100px" width="100px" id="buy">
+                <button class="btn btn-" id="b1">
+                    
+                    <strong>buy</strong></button>
             </div>   
         </div>
     </div>
 
   
 </div>
-<footer class=""id="foot">
+<footer id="foot">
+    <div class="container-fluid">
+     <div class="row">
+       
+        <div class="col-12 col-sm-4 ps-5 pt-5">
+         <ul class="list-inline text-light">
+            
+            <li><strong>Information</strong></li>
+            <li>Pricing</li>
+            <li>About us</li>
+            <li>API</li>
+            <li>Jobs</li>
+            <li>Sell content</li>
+            <li>Exchange more brand guidelines</li>
+            <li>Events</li>
+            <li>Search trends</li>
+            <li>Blog</li>
+         </ul>
+        </div>
+        <div class="col-12 col-sm-4 ps-5 pt-5">
+            <ul class="list-inline text-light">
+             <li><strong>Legal</strong></li>
+             <li>Terms of use</li>
+             <li>License Agreement</li>
+             <li>Privacy policy</li>
+             <li>Copyright Information</li>
+             <li>Cookies policy</li>
+            </ul>
+        </div>
+        <div class="col-12 col-sm-4 ps-5 pt-5">
+            <ul class="list-inline text-light">
+                <li><strong>Support</strong></li>
+                <li>FAQ</li>
+                <li>Search guide</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+     </div>
+     <div class="row mt-5 pt-5 ps-5 ms-5">
+        <div class="col">
+            <p class="text-white">Get exclusive assets sent straight to your inbox</p>
+        <button class="btn btn-primary">Signup</button>
+        </div>
+        
+     </div>
+    </div>
     <hr id="hr1">
     <div class="container-fluid">
     <div class="row">
         
-        <div class="col-12 col-sm-6">
+        <div class="col-12 col-sm-4">
               <p class="text-light"><h1 id="Ex">Exchange more</h1></p>
         </div>
-        <div class="col-12 col-sm-6">
+        <div class="col-12 col-sm-4">
             <p class="text-light h4"  ><strong id="res"> © 2010-2024 Serivce platform S.L. All rights reserved.</strong></p>
         </div>
-        <div class="col-12 ">
+        <div class="col-12 col-sm-4">
            <button class="btn btn-light m-5 " id="bu" >English</button>
         </div>
 
