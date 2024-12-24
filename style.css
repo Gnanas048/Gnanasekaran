@@ -30,9 +30,14 @@ body{
     width: 70px;
     background-color: green;
     position: relative;
-    left: 100px;
+    left: 10px;
     top: 80px;
       
+}
+#buy{
+    position: relative;
+    left: 100px;
+     bottom:50px;  
 }
 #b{
     height: 300px;
@@ -42,8 +47,8 @@ body{
     border-style:groove;
     border-color:#333333;
     position: sticky;
-    left: 300px;
-    
+    left: 0px;
+   
    
     z-index: 1;
     
@@ -54,10 +59,15 @@ body{
     width: 70px;
     background-color: red;
     position:relative;
-    left: 100px;
+    left: 10px;
     top: 200px;
    
 
+}
+#sell{
+    position: relative;
+    left: 100px;
+    top: 70px;
 }
 
 
@@ -96,7 +106,7 @@ body{
 #d1{
     height: 60px;
     width: 60px;
-    background-color:darkgreen;
+    background-color:lightgreen;
     border-radius: 20%;
     position: sticky;
     left: 1500px;
@@ -121,7 +131,7 @@ body{
     height: 50px;
     width: 100% ;
     position: relative;
-    top: 450px;
+    top: 500px;
     font-size: 36px;
     
 }
@@ -130,7 +140,7 @@ body{
 
 #foot{
     background-color: black;
-    height: 600px;
+    height: 1700px;
     width: 100%;
 }
 #Ex{
@@ -146,12 +156,13 @@ body{
 }
 #bu{
     position:relative;
-    top:350px;
+    top:400px;
+    left: 0px;
     
 }
 #hr1{
     height: 5px;
     background-color: #F7F7F7;
     position: relative;
-    top: 550px;
+    top: 700px;
 }
