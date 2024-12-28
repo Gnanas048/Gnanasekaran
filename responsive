@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -45,17 +46,22 @@
     </div>
     </header>
 
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col">
-                create search box
+            <div class="col-12" >
+                <div class="input-group btn-dark mt-5 p-1" >
+                    <span class="input-group-search"></span>
+                    <input type="search" class="form-control" placeholder="Search products">
+                  </div>
+                
+                
             </div>
         </div>
     </div>
    <div class="container-fluid">
     <div class="row">
         <div class="col-12 col-sm-12 col-md-4 my-5">
-            <h1 class="text-dark ms-5">Fast, Secure, and Easy Mobile Exchange – Get the Best Value for Your Phone</h1>
+            <h1 class="text-dark m-5">Fast, Secure, and Easy Mobile Exchange – Get the Best Value for Your Phone</h1>
             <button class="btn btn-primary ms-5">learn more</button>
         </div>
         
@@ -78,7 +84,7 @@
    <div class="container-fluid">
   <div class="row">    
     <div class="col-12 ms-5 ps-5">
-        <h1 class="text-dark ps-1 ms-1">Trade-in your used electronics for new ones</h1>
+        <h1 class="text-dark p-1 m-1">Trade-in your used electronics for new ones</h1>
     </div>
     
         <div class="col-12 col-sm-6 p-5 ">
