@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,6 +10,7 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 <body background="./360742.jpg">
@@ -147,9 +147,26 @@
         </div>
      </div>
      <div class="row mt-5 pt-5 ps-5 ms-5">
-        <div class="col">
+        <div class="col-12 col-sm-6">
             <p class="text-white">Get exclusive assets sent straight to your inbox</p>
         <button class="btn btn-primary">Signup</button>
+        </div>
+
+        <div class="mt-5 col-12 col-sm-6">
+
+            <label > <h1 class="text-white">Social media</h1></label>
+            <ul class="list-inline">
+                <li class="list-inline-item bg-danger"><i class="fa-brands fa-youtube "  style="font-size: 3rem;" ></i></li>
+                <li class="list-inline-item bg-light"><i class="fa-brands fa-x "  style="font-size: 3rem;"></i></li>
+                <li class="list-inline-item bg-primary"><i class="fa-brands fa-facebook "  style="font-size: 3rem;" ></i></li>
+                </ul>
+                <ul class="list-inline">
+                    <li class="list-inline-item bg-danger"><i class="fa-brands fa-pinterest"  style="font-size: 3rem;"></i></li>
+                <li class="list-inline-item bg-primary"><i class="fa-brands fa-linkedin "  style="font-size: 3rem;"></i></li>
+                <li class="list-inline-item btn-warning"><i class="fa-brands fa-instagram"  style="font-size: 3rem;" ></i></li>
+                </ul>
+            
+
         </div>
         
      </div>
